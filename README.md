@@ -68,8 +68,9 @@ The VBA program searches the product dataset using the product Handle as the ide
 
 For example, the update functionality uses Excel VBA's .Find() method to locate the appropriate product record before modifying the relevant fields.
 
-Set rowToModify = wsData.Range("A:A").Find( _
+
      
+     Set rowToModify = wsData.Range("A:A").Find( _
      What:=Handle, _
      LookIn:=xlValues, _
      LookAt:=xlWhole)
