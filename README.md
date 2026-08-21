@@ -159,7 +159,7 @@ VBA Functions
 
 The project includes VBA procedures responsible for the major inventory-management operations.
 
-#  Save Product
+**  Save Product     **
 
 The Save macro:
 
