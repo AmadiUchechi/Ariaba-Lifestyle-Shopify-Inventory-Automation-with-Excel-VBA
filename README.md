@@ -15,39 +15,23 @@ Ariaba Lifestyle needed a more efficient way to manage product information befor
 
 Managing Shopify product data manually can involve numerous fields, including:
 
-. Product titles
-
-. Product descriptions
-
-. SKUs
-
-. Product categories
-
-. Vendors
-
-. Tags
-
-. Inventory quantities
-
-. Prices
-
-. Compare-at prices
-
-. Product variants
-
-. Barcodes
-
-. Product images
-
-. Shipping information
-
-. Tax information
-
-. SEO information
-
-. Google Shopping information
-
-. Product status
+1. Product titles
+2. Product descriptions
+3. SKUs
+4. Product categories
+5. Vendors
+6. Tags
+7. Inventory quantities
+8. Prices
+9. Compare-at prices
+10. Product variants
+11. Barcodes
+12. Product images
+13. Shipping information
+14. Tax information
+15. SEO information
+16. Google Shopping information
+17. Product status
 
 Entering and modifying this information manually can be time-consuming and increase the possibility of errors.
 
@@ -113,61 +97,34 @@ Shopify-Compatible Product Fields
 
 The form was designed around Shopify product data fields, including:
 
-. Handle
-
-. Title
-
-. Body (HTML)
-
-. Vendor
-
-. Product Category
-
-. Type
-
-. Tags
-
-. Published Status
-
-. Published Scope
-
-. Product Options
-
-. Variant SKU
-
-. Variant Inventory Quantity
-
-. Variant Inventory Policy
-
-. Variant Fulfillment Service
-
-. Variant Price
-
-. Variant Compare-at Price
-
-. Variant Barcode
-
-. Image Source
-
-. Image Position
-
-. Image Alt Text
-
-. Gift Card
-
-. Collections
-
-. SEO Title
-
-. SEO Description
-
-. Google Shopping fields
-
-. Cost per Item
-
-. International Pricing
-
-. Product Status
+1. Handle
+2. Title
+3. Body (HTML)
+4. Vendor
+5. Product Category
+6. Type
+7. Tags
+8. Published Status
+9. Published Scope
+10. Product Options
+11. Variant SKU
+12. Variant Inventory Quantity
+13. Variant Inventory Policy
+14. Variant Fulfillment Service
+15. Variant Price
+16. Variant Compare-at Price
+17. Variant Barcode
+18. Image Source
+19. Image Position
+20. Image Alt Text
+21. Gift Card
+22. Collections
+23. SEO Title
+24. SEO Description
+25. Google Shopping fields
+26. Cost per Item
+27. International Pricing
+28. Product Status
 
 This structure makes it easier to organize product information for subsequent Shopify inventory operations.
 
@@ -264,35 +221,21 @@ Excel Forms/Buttons	                            User interaction with VBA macros
 
 This project demonstrates practical experience in:
 
-. Excel VBA Programming
-
-. Excel Automation
-
-. Data Management
-
-. Inventory Management
-
-. E-commerce Data Management
-
-. Shopify Product Data Preparation
-
-. Process Automation
-
-. Data Validation
-
-. Conditional Logic
-
-. VBA Loops
-
-. Range Manipulation
-
-. Excel .Find() Method
-
-. CRUD-style Data Operations
-
-. Business Process Improvement
-
-. User-Friendly Excel Interface Design
+1. Excel VBA Programming
+2. Excel Automation
+3. Data Management
+4. Inventory Management
+5. E-commerce Data Management
+6. Shopify Product Data Preparation
+7. Process Automation
+8. Data Validation
+9. Conditional Logic
+10. VBA Loops
+11. Range Manipulation
+12. Excel .Find() Method
+13. CRUD-style Data Operations
+14. Business Process Improvement
+15. User-Friendly Excel Interface Design
 
 #  Automation Workflow
 
