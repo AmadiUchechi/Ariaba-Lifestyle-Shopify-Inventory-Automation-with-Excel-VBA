@@ -294,20 +294,22 @@ Most importantly, the project transformed a repetitive inventory-management proc
 Ariaba Product Management Form
 
 The Excel interface provides a centralized location for entering and managing Shopify product information.
-<img width="1811" height="599" alt="Screenshot 2025-08-22 075210" src="https://github.com/user-attachments/assets/66ff4ee3-77ae-40b2-8375-e734f95d031c" />
+<img width="1811" height="599" alt="Ariaba Product Management Form" src="https://github.com/user-attachments/assets/34c537ae-8c98-449f-9c40-90531e4119b2" />
 
 
 VBA Update Automation
 
 The VBA update procedure searches for a product using its Handle and modifies the corresponding inventory record.
 
-<img width="1691" height="999" alt="Screenshot 2025-08-22 075646" src="https://github.com/user-attachments/assets/8af89763-d202-4d79-80ec-f53bfc54d422" />
+<img width="1691" height="999" alt="VBA Update Automation" src="https://github.com/user-attachments/assets/175ceecb-aa72-4419-b291-a0e1a3b3974d" />
+
 
 VBA Delete Automation
 
 The delete procedure searches for the selected Handle and automatically removes the associated product record.
 
-<img width="1753" height="995" alt="Screenshot 2025-08-22 075709" src="https://github.com/user-attachments/assets/61e8e833-1317-42d0-90d5-c255ad20ee52" />
+<img width="1753" height="995" alt="VBA Delete Automation" src="https://github.com/user-attachments/assets/752883ac-4895-451d-9b87-6f8181bf4c99" />
+
 
 
 # 10. Challenges and Learning
