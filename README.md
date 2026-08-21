@@ -209,9 +209,9 @@ Clears the Handle field after the operation.
 #  Technologies Used
 
 
-|     Technolog     |     Purpose     |
+|     Technology     |     Purpose     |
 |     ---          |    ---          |
-Microsoft Excel                                	Inventory management interface
+|     Microsoft Excel     |     Inventory management interface     |
 VBA	                                             Automation and business logic
 Excel Macros	                                   Automated inventory operations
 Shopify Product Structure	                    Organization of e-commerce product information
