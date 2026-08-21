@@ -16,9 +16,9 @@ Ariaba Lifestyle needed a more efficient way to manage product information befor
 Managing Shopify product data manually can involve numerous fields, including:
 
 - Product titles
-2. Product descriptions
-3. SKUs
-4. Product categories
+-  Product descriptions
+-   SKUs
+-   Product categories
 5. Vendors
 6. Tags
 7. Inventory quantities
@@ -83,7 +83,6 @@ The model also allows users to delete an existing product record.
 The VBA macro searches column A of the product dataset for the specified Handle and deletes the corresponding row.
 
 Set foundCell = wsData.Columns("A").Find( _
-    
     What:=Handle, _
     LookIn:=xlValues, _
     LookAt:=xlWhole)
