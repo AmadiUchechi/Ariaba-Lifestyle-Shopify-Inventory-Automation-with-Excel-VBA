@@ -15,7 +15,7 @@ Ariaba Lifestyle needed a more efficient way to manage product information befor
 
 Managing Shopify product data manually can involve numerous fields, including:
 
-1. Product titles
+- Product titles
 2. Product descriptions
 3. SKUs
 4. Product categories
@@ -211,9 +211,9 @@ Clears the Handle field after the operation.
 
 Technology	                                     Purpose
 Microsoft Excel                                	Inventory management interface
-VBA	                                            Automation and business logic
-Excel Macros	                                  Automated inventory operations
-Shopify Product Structure	                      Organization of e-commerce product information
+VBA	                                             Automation and business logic
+Excel Macros	                                   Automated inventory operations
+Shopify Product Structure	                    Organization of e-commerce product information
 Data Validation	                                Controlled product data entry
 Excel Forms/Buttons	                            User interaction with VBA macros
 
