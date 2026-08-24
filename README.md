@@ -83,7 +83,8 @@ The model also allows users to delete an existing product record.
 
 The VBA macro searches column A of the product dataset for the specified Handle and deletes the corresponding row.
 
-Set foundCell = wsData.Columns("A").Find( _
+
+    Set foundCell = wsData.Columns("A").Find( _
     What:=Handle, _
     LookIn:=xlValues, _
     LookAt:=xlWhole)
@@ -97,34 +98,34 @@ Shopify-Compatible Product Fields
 
 The form was designed around Shopify product data fields, including:
 
-1. Handle
-2. Title
-3. Body (HTML)
-4. Vendor
-5. Product Category
-6. Type
-7. Tags
-8. Published Status
-9. Published Scope
-10. Product Options
-11. Variant SKU
-12. Variant Inventory Quantity
-13. Variant Inventory Policy
-14. Variant Fulfillment Service
-15. Variant Price
-16. Variant Compare-at Price
-17. Variant Barcode
-18. Image Source
-19. Image Position
-20. Image Alt Text
-21. Gift Card
-22. Collections
-23. SEO Title
-24. SEO Description
-25. Google Shopping fields
-26. Cost per Item
-27. International Pricing
-28. Product Status
+- Handle
+- Title
+- Body (HTML)
+- Vendor
+- Product Category
+- Type
+- Tags
+- Published Status
+- Published Scope
+- Product Options
+- Variant SKU
+- Variant Inventory Quantity
+- Variant Inventory Policy
+- Variant Fulfillment Service
+- Variant Price
+- Variant Compare-at Price
+- Variant Barcode
+- Image Source
+- Image Position
+- Image Alt Text
+- Gift Card
+- Collections
+- SEO Title
+- SEO Description
+- Google Shopping fields
+- Cost per Item
+- International Pricing
+- Product Status
 
 This structure makes it easier to organize product information for subsequent Shopify inventory operations.
 
