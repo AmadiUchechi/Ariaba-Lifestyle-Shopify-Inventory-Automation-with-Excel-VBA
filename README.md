@@ -133,7 +133,7 @@ This structure makes it easier to organize product information for subsequent Sh
 
 The Excel solution uses multiple worksheets to separate the user interface from the underlying product data.
 
-Form
+- Form
 
 The Form worksheet acts as the main user interface.
 
@@ -141,12 +141,12 @@ Users enter product information into designated cells and use the command button
 
 The interface includes:
 
-SAVE | UPDATE | DELETE
+**SAVE** | **UPDATE** | **DELETE**
 
 This approach makes the workbook easier to use for individuals who may not have experience working with VBA or complex Excel datasets.
 
 
-Products
+- Products
 
 The Products worksheet stores the structured product information.
 
@@ -160,7 +160,7 @@ VBA Functions
 
 The project includes VBA procedures responsible for the major inventory-management operations.
 
-**Save Product**
+- **Save Product**
 
 The Save macro:
 
@@ -173,7 +173,7 @@ Prepares the product information for inventory management/export.
 
 Reduces repetitive manual copying and pasting.
 
-#  Update Product
+-  **Update Product**
 
 The ModifyDataByID() procedure:
 
@@ -190,7 +190,7 @@ Replaces the appropriate values in the existing product record.
 
 Displays a confirmation message when the update is completed.
 
-#  Delete Product
+-  **Delete Product**
 
 The ClearDataByID() procedure:
 
