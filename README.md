@@ -26,12 +26,12 @@ Managing Shopify product data manually can involve numerous fields, including:
 -  Compare-at prices
 -  Product variants
 -  Barcodes
-12. Product images
-13. Shipping information
-14. Tax information
-15. SEO information
-16. Google Shopping information
-17. Product status
+-  Product images
+-  Shipping information
+-  Tax information
+-  SEO information
+-  Google Shopping information
+-  Product status
 
 Entering and modifying this information manually can be time-consuming and increase the possibility of errors.
 
@@ -47,11 +47,11 @@ The VBA macros automate the movement and management of information between the i
 
 The system includes three primary actions:
 
-SAVE — Adds product information entered into the form to the product dataset.
+- SAVE — Adds product information entered into the form to the product dataset.
 
-UPDATE — Searches for an existing product using its unique Handle and modifies the corresponding product information.
+- UPDATE — Searches for an existing product using its unique Handle and modifies the corresponding product information.
 
-DELETE — Searches for a product by its Handle and removes the corresponding record from the product dataset.
+- DELETE — Searches for a product by its Handle and removes the corresponding record from the product dataset.
 
 #  4. Key Features
 Automated Product Entry
