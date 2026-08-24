@@ -21,11 +21,11 @@ Managing Shopify product data manually can involve numerous fields, including:
 -  Product categories
 -  Vendors
 -  Tags
-7. Inventory quantities
-8. Prices
-9. Compare-at prices
-10. Product variants
-11. Barcodes
+-  Inventory quantities
+-  Prices
+-  Compare-at prices
+-  Product variants
+-  Barcodes
 12. Product images
 13. Shipping information
 14. Tax information
