@@ -15,12 +15,12 @@ Ariaba Lifestyle needed a more efficient way to manage product information befor
 
 Managing Shopify product data manually can involve numerous fields, including:
 
-- Product titles
+-  Product titles
 -  Product descriptions
--   SKUs
--   Product categories
-5. Vendors
-6. Tags
+-  SKUs
+-  Product categories
+-  Vendors
+-  Tags
 7. Inventory quantities
 8. Prices
 9. Compare-at prices
