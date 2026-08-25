@@ -54,13 +54,13 @@ The system includes three primary actions:
 - DELETE — Searches for a product by its Handle and removes the corresponding record from the product dataset.
 
 #  4. Key Features
-Automated Product Entry
+**Automated Product Entry**
 
 The model provides a structured Excel form where users can enter product information without manually navigating through a large Shopify inventory spreadsheet.
 
 The VBA program transfers the entered information to the appropriate fields in the product dataset.
 
-Inventory Updates
+**Inventory Updates**
 
 Existing product information can be modified directly from the form.
 
@@ -77,7 +77,7 @@ For example, the update functionality uses Excel VBA's .Find() method to locate 
 
 Once the Handle is located, the macro updates the corresponding product information.
 
-Product Deletion
+**Product Deletion**3
 
 The model also allows users to delete an existing product record.
 
@@ -164,60 +164,61 @@ The project includes VBA procedures responsible for the major inventory-manageme
 
 The Save macro:
 
+- Collects information entered into the product form.
 
-Collects information entered into the product form.
+- Transfers the values into the appropriate product-data structure.
 
-Transfers the values into the appropriate product-data structure.
+- Prepares the product information for inventory management/export.
 
-Prepares the product information for inventory management/export.
-
-Reduces repetitive manual copying and pasting.
+- Reduces repetitive manual copying and pasting.
+  
 
 -  **Update Product**
 
 The ModifyDataByID() procedure:
 
 
-Reads the product Handle from the input form.
+- Reads the product Handle from the input form.
 
-Searches the Products worksheet for the Handle.
+- Searches the Products worksheet for the Handle.
 
-Identifies the corresponding product row.
+- Identifies the corresponding product row.
 
-Reads the updated values from the form.
+- Reads the updated values from the form.
 
-Replaces the appropriate values in the existing product record.
+- Replaces the appropriate values in the existing product record.
 
-Displays a confirmation message when the update is completed.
+- Displays a confirmation message when the update is completed.
+  
 
 -  **Delete Product**
 
 The ClearDataByID() procedure:
 
 
-Reads the product Handle from the form.
+- Reads the product Handle from the form.
 
-Searches the Products worksheet.
+- Searches the Products worksheet.
 
-Locates the matching product.
+- Locates the matching product.
 
-Deletes the corresponding product row.
+- Deletes the corresponding product row.
 
-Displays a confirmation message.
+- Displays a confirmation message.
 
-Clears the Handle field after the operation.
+- Clears the Handle field after the operation.
 
 #  Technologies Used
 
 
 |     Technology     |     Purpose     |
 |     ---          |    ---          |
-|     Microsoft Excel     |     Inventory management interface     |
-VBA	                                             Automation and business logic
-Excel Macros	                                   Automated inventory operations
-Shopify Product Structure	                    Organization of e-commerce product information
-Data Validation	                                Controlled product data entry
-Excel Forms/Buttons	                            User interaction with VBA macros
+|  Microsoft Excel     |     Inventory management interface     |
+|  VBA	             |     Automation and business logic      |
+|  Excel Macros	   |     Automated inventory operations     |
+|  Shopify Product Structure	  |   Organization of e-commerce product information     |
+|  Data Validation	   |     Controlled product data entry      |
+|  Excel Forms/Buttons |     User interaction with VBA macros   |
 
 #  7. Skills Demonstrated
 
