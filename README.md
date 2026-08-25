@@ -160,52 +160,38 @@ VBA Functions
 
 The project includes VBA procedures responsible for the major inventory-management operations.
 
-- **Save Product**
+
+ **Save Product**
 
 The Save macro:
 
 - Collects information entered into the product form.
-
 - Transfers the values into the appropriate product-data structure.
-
 - Prepares the product information for inventory management/export.
-
 - Reduces repetitive manual copying and pasting.
   
 
--  **Update Product**
+  **Update Product**
 
 The ModifyDataByID() procedure:
 
-
 - Reads the product Handle from the input form.
-
 - Searches the Products worksheet for the Handle.
-
 - Identifies the corresponding product row.
-
 - Reads the updated values from the form.
-
 - Replaces the appropriate values in the existing product record.
-
 - Displays a confirmation message when the update is completed.
   
 
--  **Delete Product**
+  **Delete Product**
 
 The ClearDataByID() procedure:
 
-
 - Reads the product Handle from the form.
-
 - Searches the Products worksheet.
-
 - Locates the matching product.
-
 - Deletes the corresponding product row.
-
 - Displays a confirmation message.
-
 - Clears the Handle field after the operation.
 
 #  Technologies Used
@@ -224,21 +210,21 @@ The ClearDataByID() procedure:
 
 This project demonstrates practical experience in:
 
-1. Excel VBA Programming
-2. Excel Automation
-3. Data Management
-4. Inventory Management
-5. E-commerce Data Management
-6. Shopify Product Data Preparation
-7. Process Automation
-8. Data Validation
-9. Conditional Logic
-10. VBA Loops
-11. Range Manipulation
-12. Excel .Find() Method
-13. CRUD-style Data Operations
-14. Business Process Improvement
-15. User-Friendly Excel Interface Design
+- Excel VBA Programming
+- Excel Automation
+- Data Management
+- Inventory Management
+- E-commerce Data Management
+- Shopify Product Data Preparation
+- Process Automation
+- Data Validation
+- Conditional Logic
+- VBA Loops
+- Range Manipulation
+- Excel .Find() Method
+- CRUD-style Data Operations
+- Business Process Improvement
+- User-Friendly Excel Interface Design
 
 #  Automation Workflow
 
@@ -275,39 +261,33 @@ The automation model was designed to reduce the amount of repetitive work involv
 
 The solution helped provide:
 
-Faster product data entry
-
-Easier inventory updates
-
-Centralized product information
-
-Reduced repetitive copying and pasting
-
-More consistent product-data formatting
-
-Easier modification of existing inventory
-
-Reduced risk of manual data-entry errors
+- Faster product data entry
+- Easier inventory updates
+- Centralized product information
+- Reduced repetitive copying and pasting
+- More consistent product-data formatting
+- Easier modification of existing inventory
+- Reduced risk of manual data-entry errors
 
 A simpler interface for managing large numbers of Shopify product fields
 
 Most importantly, the project transformed a repetitive inventory-management process into a button-driven Excel workflow
 
 #  9. Project Screenshots
-Ariaba Product Management Form
+**Ariaba Product Management Form**
 
 The Excel interface provides a centralized location for entering and managing Shopify product information.
 <img width="1811" height="599" alt="Ariaba Product Management Form" src="https://github.com/user-attachments/assets/34c537ae-8c98-449f-9c40-90531e4119b2" />
 
 
-VBA Update Automation
+**VBA Update Automation**
 
 The VBA update procedure searches for a product using its Handle and modifies the corresponding inventory record.
 
 <img width="1691" height="999" alt="VBA Update Automation" src="https://github.com/user-attachments/assets/175ceecb-aa72-4419-b291-a0e1a3b3974d" />
 
 
-VBA Delete Automation
+**VBA Delete Automation**
 
 The delete procedure searches for the selected Handle and automatically removes the associated product record.
 
@@ -321,19 +301,13 @@ One of the main challenges of this project was mapping a large number of Shopify
 
 The project strengthened my understanding of:
 
-Working with Excel ranges programmatically
-
-Searching datasets using VBA
-
-Automating repetitive business processes
-
-Updating records based on unique identifiers
-
-Creating reusable VBA procedures
-
-Designing Excel tools for non-technical users
-
-Structuring data for e-commerce applications
+- Working with Excel ranges programmatically
+- Searching datasets using VBA
+- Automating repetitive business processes
+- Updating records based on unique identifiers
+- Creating reusable VBA procedures
+- Designing Excel tools for non-technical users
+- Structuring data for e-commerce applications
 
 It also demonstrated how Excel can be transformed from a traditional spreadsheet into a lightweight business application using VBA.
 
@@ -341,25 +315,16 @@ It also demonstrated how Excel can be transformed from a traditional spreadsheet
 
 Possible improvements to the project include:
 
-Adding stronger input validation
-
-Automatically detecting duplicate product Handles
-
-Creating automated Shopify-ready CSV exports
-
-Adding error logging and exception handling
-
-Creating inventory-level alerts
-
-Adding product search functionality
-
-Developing an inventory dashboard
-
-Adding automated backups before updates or deletions
-
-Integrating directly with the Shopify API
-
-Migrating the solution to a database-backed application for larger inventories
+- Adding stronger input validation
+- Automatically detecting duplicate product Handles
+- Creating automated Shopify-ready CSV exports
+- Adding error logging and exception handling
+- Creating inventory-level alerts
+- Adding product search functionality
+- Developing an inventory dashboard
+- Adding automated backups before updates or deletions
+- Integrating directly with the Shopify API
+- Migrating the solution to a database-backed application for larger inventories
 
 #  Author
 
@@ -375,5 +340,4 @@ August 2024
 
 This repository is intended to demonstrate the technical implementation and skills used in the project. Client-sensitive information, proprietary product data, credentials, and confidential business information have been excluded.
 
-The screenshots and sample materials should contain only information appropriate for public portfolio use.
             
