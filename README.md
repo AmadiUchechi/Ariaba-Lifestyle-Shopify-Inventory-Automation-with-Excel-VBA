@@ -164,6 +164,7 @@ The project includes VBA procedures responsible for the major inventory-manageme
  **Save Product**
 
 The Save macro:
+|  ------  |
 
 - Collects information entered into the product form.
 - Transfers the values into the appropriate product-data structure.
@@ -172,7 +173,7 @@ The Save macro:
   
 
   **Update Product**
-
+|  ------  |
 The ModifyDataByID() procedure:
 
 - Reads the product Handle from the input form.
@@ -268,8 +269,7 @@ The solution helped provide:
 - More consistent product-data formatting
 - Easier modification of existing inventory
 - Reduced risk of manual data-entry errors
-
-A simpler interface for managing large numbers of Shopify product fields
+- A simpler interface for managing large numbers of Shopify product fields
 
 Most importantly, the project transformed a repetitive inventory-management process into a button-driven Excel workflow
 
