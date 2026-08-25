@@ -55,12 +55,14 @@ The system includes three primary actions:
 
 #  4. Key Features
 **Automated Product Entry**
+|  ------  |
 
 The model provides a structured Excel form where users can enter product information without manually navigating through a large Shopify inventory spreadsheet.
 
 The VBA program transfers the entered information to the appropriate fields in the product dataset.
 
 **Inventory Updates**
+|  ------  |
 
 Existing product information can be modified directly from the form.
 
@@ -77,7 +79,8 @@ For example, the update functionality uses Excel VBA's .Find() method to locate 
 
 Once the Handle is located, the macro updates the corresponding product information.
 
-**Product Deletion**3
+**Product Deletion**
+|  ------  |
 
 The model also allows users to delete an existing product record.
 
@@ -89,12 +92,12 @@ The VBA macro searches column A of the product dataset for the specified Handle 
     LookIn:=xlValues, _
     LookAt:=xlWhole)
 
-If Not foundCell Is Nothing Then
     
+    If Not foundCell Is Nothing Then
     foundCell.EntireRow.Delete
-End If
+    End If
+    Shopify-Compatible Product Fields
 
-Shopify-Compatible Product Fields
 
 The form was designed around Shopify product data fields, including:
 
