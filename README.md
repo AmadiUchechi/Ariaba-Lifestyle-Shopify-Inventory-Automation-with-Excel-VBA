@@ -162,9 +162,9 @@ The project includes VBA procedures responsible for the major inventory-manageme
 
 
  **Save Product**
-
+ |  ------  |
 The Save macro:
-|  ------  |
+
 
 - Collects information entered into the product form.
 - Transfers the values into the appropriate product-data structure.
@@ -173,7 +173,7 @@ The Save macro:
   
 
   **Update Product**
-|  ------  |
+  |  ------  |
 The ModifyDataByID() procedure:
 
 - Reads the product Handle from the input form.
